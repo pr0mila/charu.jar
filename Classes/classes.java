@@ -3,12 +3,14 @@ import java.awt.Color;
 import javax.swing.JPanel;
 import javax.swing.JFrame;
 
+//for changing backgound color and size
+
 class Background extends JPanel
 {
 	private static final Graphics Graphics = null;
 	private int height,width,r,g,b;
 	private Color color = new Color (255,255,255);
-	public Background (int width,int height,Color color)
+	public Background (int width,int height,Color color) //for calling New class Background(width,height,color)
 	{
 		
 		this.height= height;
