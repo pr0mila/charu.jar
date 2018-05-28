@@ -10,7 +10,8 @@ class Background extends JPanel
 	private static final Graphics Graphics = null;
 	private int height,width,r,g,b;
 	private Color color = new Color (255,255,255);
-	public Background (int width,int height,Color color) //for calling New class Background(width,height,color)
+	public Background (int width,int height,Color color) /*for calling New class 
+	Background(int width,int height,Color color)*/
 	{
 		
 		this.height= height;
